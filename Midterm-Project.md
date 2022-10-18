@@ -5,131 +5,15 @@ Lindsey Dorson
 
 ``` r
 library(quantmod)
-```
-
-    ## Loading required package: xts
-
-    ## Loading required package: zoo
-
-    ## 
-    ## Attaching package: 'zoo'
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     as.Date, as.Date.numeric
-
-    ## Loading required package: TTR
-
-    ## Registered S3 method overwritten by 'quantmod':
-    ##   method            from
-    ##   as.zoo.data.frame zoo
-
-``` r
 library(tidyr)
 library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:xts':
-    ## 
-    ##     first, last
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
-
-``` r
 library(fGarch)
-```
-
-    ## NOTE: Packages 'fBasics', 'timeDate', and 'timeSeries' are no longer
-    ## attached to the search() path when 'fGarch' is attached.
-    ## 
-    ## If needed attach them yourself in your R script by e.g.,
-    ##         require("timeSeries")
-
-    ## 
-    ## Attaching package: 'fGarch'
-
-    ## The following object is masked from 'package:TTR':
-    ## 
-    ##     volatility
-
-``` r
 library(Ecdat)
-```
-
-    ## Loading required package: Ecfun
-
-    ## 
-    ## Attaching package: 'Ecfun'
-
-    ## The following object is masked from 'package:base':
-    ## 
-    ##     sign
-
-    ## 
-    ## Attaching package: 'Ecdat'
-
-    ## The following object is masked from 'package:datasets':
-    ## 
-    ##     Orange
-
-``` r
 library(sn)
-```
-
-    ## Loading required package: stats4
-
-    ## 
-    ## Attaching package: 'sn'
-
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     sd
-
-``` r
 library(MASS)
-```
-
-    ## 
-    ## Attaching package: 'MASS'
-
-    ## The following object is masked from 'package:Ecdat':
-    ## 
-    ##     SP500
-
-    ## The following object is masked from 'package:dplyr':
-    ## 
-    ##     select
-
-``` r
 library(LambertW)
-```
-
-    ## Loading required package: ggplot2
-
-    ## This is 'LambertW' version 0.6.7. See the NEWS file and citation("LambertW").
-
-``` r
 library(stats)
 library(ks)
-```
-
-    ## 
-    ## Attaching package: 'ks'
-
-    ## The following object is masked from 'package:sn':
-    ## 
-    ##     vech
-
-``` r
 library(htmlTable)
 library(copula)
 ```
@@ -380,7 +264,7 @@ Skewed Normal
 -302.8
 </td>
 <td style="text-align: center;">
--297.21
+-297.2
 </td>
 </tr>
 <tr>
@@ -596,7 +480,7 @@ Shape: nu
 19.2248
 </td>
 <td style="text-align: center;">
-9.9449
+9.945
 </td>
 </tr>
 <tr>
@@ -623,13 +507,13 @@ u2<-psstd(x2,mean = GS_para_st[1],sd = GS_para_st[2],nu = GS_para_st[3],xi = GS_
 cor(x1,x2)
 ```
 
-    ## [1] 0.6753737
+    ## [1] 0.6753744
 
 ``` r
 cor(u1,u2)
 ```
 
-    ## [1] 0.6924295
+    ## [1] 0.6924301
 
 ##### Uniform Distribution Figures
 
