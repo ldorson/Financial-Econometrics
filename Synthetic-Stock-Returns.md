@@ -477,7 +477,7 @@ Scale: sd
 Shape: nu
 </td>
 <td style="text-align: center;">
-19.2247
+19.2245
 </td>
 <td style="text-align: center;">
 9.945
@@ -507,13 +507,13 @@ u2<-psstd(x2,mean = GS_para_st[1],sd = GS_para_st[2],nu = GS_para_st[3],xi = GS_
 cor(x1,x2)
 ```
 
-    ## [1] 0.6753743
+    ## [1] 0.6753741
 
 ``` r
 cor(u1,u2)
 ```
 
-    ## [1] 0.6924301
+    ## [1] 0.69243
 
 ##### Uniform Distribution Figures
 
