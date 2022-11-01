@@ -107,7 +107,7 @@ type of distribution. To determine which distribution fits the returns
 best, Akaike’s Information Criteria (AIC) and Bayesian Information
 Criteria (BIC) estimates are compared to analyze each distributions
 strength . The distribution that has the lowest value of AIC will be
-selected (AIC is better for predication). Visualizations of the fittings
+selected (AIC is better for prediction). Visualizations of the fittings
 are added below as well to validate the selection. From the results
 below ([Table 1.](#table-1.), [Table 2.](#table-2.)), the best fitting
 distribution for both BlackRock and Goldman Sachs is the Skewed Student
